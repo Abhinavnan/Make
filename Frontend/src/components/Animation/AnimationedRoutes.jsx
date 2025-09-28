@@ -9,6 +9,7 @@ import MultiSelect from '../Testing/MultiSelect'
 import ImageUpload from '../Testing/ImageUpload'
 import UseRefSample from '../Testing/Hooks/UseRefSample';
 import ThreeJS from '../Testing/Three JS/ThreeJS';
+import RegularExpression from '../Testing/Regular Expression/RegularExpression';
 
 function AnimationedRoutes() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AnimationedRoutes() {
           <Route path='/multiselect' element={<MultiSelect />}/>
           <Route path='/imageupload' element={<ImageUpload />}/>
           <Route path='/threejs' element={<ThreeJS />}/>
+          <Route path='/regex' element={<RegularExpression />}/>
       </Routes>
     </AnimatePresence>
   )
